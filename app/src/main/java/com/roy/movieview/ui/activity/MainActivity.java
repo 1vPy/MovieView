@@ -250,8 +250,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     private void modifySkin() {
         if (!SkinConfig.isDefaultSkin(this)) {
             SkinManager.getInstance().restoreDefaultTheme();
-            ImageUtils.displayImage(mContext, mUserPreference.readAvatar(), user_login);
-            user_name.setText(mUserPreference.readUserInfo().getUsername());
+            isLogin();
         } else {
             SkinManager.getInstance().loadSkin("test.skin", new SkinLoaderListener() {
                 @Override
@@ -263,8 +262,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                 public void onSuccess() {
                     ToastUtils.showSingleLongToast("换肤成功");
                     new Handler().postDelayed(() -> runOnUiThread(() -> {
-                        ImageUtils.displayImage(mContext, mUserPreference.readAvatar(), user_login);
-                        user_name.setText(mUserPreference.readUserInfo().getUsername());
+                        isLogin();
                     }), 500);
                 }
 
