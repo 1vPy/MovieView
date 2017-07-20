@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_common" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/wrap_layout">
+                <!-- 上圆角-->
+                <LinearLayout
+                    android:id="@+id/avatar_modify"
+                    style="@style/top_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="@string/personal_avatar" />
+
+                    <ImageView
+                        android:id="@+id/user_avatar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/avatar_default" />
+
+                </LinearLayout>
+
+                <!-- 分割线 -->
+                <View style="@style/bg_line" />
+
+                <LinearLayout style="@style/mid_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="@string/username" />
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1vPy" />
+
+                </LinearLayout>
+
+                <!-- 分割线 -->
+                <View style="@style/bg_line" />
+
+                <LinearLayout style="@style/mid_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="电话" />
+
+                    <TextView
+                        android:id="@+id/user_telephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13260621332" />
+
+                </LinearLayout>
+
+                <View style="@style/bg_line" />
+
+                <LinearLayout
+                    android:id="@+id/email_set"
+                    style="@style/bottom_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="邮箱" />
+
+                    <TextView
+                        android:id="@+id/user_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="846913426@qq.com" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- 全圆角-->
+            <LinearLayout style="@style/wrap_layout">
+
+                <LinearLayout style="@style/top_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="消息推送" />
+
+                    <com.kyleduo.switchbutton.SwitchButton
+                        android:id="@+id/sbtn_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <View style="@style/bg_line" />
+
+                <LinearLayout style="@style/mid_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="收藏同步" />
+
+                    <com.kyleduo.switchbutton.SwitchButton
+                        android:id="@+id/sbtn_sync"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <View style="@style/bg_line" />
+
+                <LinearLayout
+                    android:id="@+id/cache_clear"
+                    style="@style/mid_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="磁盘缓存" />
+
+                    <TextView
+                        android:id="@+id/disk_cache"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10M" />
+
+                </LinearLayout>
+
+                <View style="@style/bg_line" />
+
+                <LinearLayout
+                    android:id="@+id/cloud_collection_clear"
+                    style="@style/bottom_layout">
+
+                    <TextView
+                        style="@style/usertext"
+                        android:text="清空云收藏" />
+
+                    <TextView
+                        android:id="@+id/cloud_collection_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="查询失败" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/btn_logout_bg"
+                android:text="注销"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">MovieView</string>
+
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <string name="classification">分类</string>
+    <string name="option">选项</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="system_setting">系统设置</string>
+    <string name="problem_feedback">问题反馈</string>
+    <string name="about_app">关于</string>
+
+    <string name="movie">电影</string>
+    <string name="movie_hot">近期热播</string>
+    <string name="movie_comeup">即将上映</string>
+    <string name="music">音乐</string>
+    <string name="music_bill">音乐榜</string>
+
+    <string name="delete">删除</string>
+    <string name="is_top">已到顶部</string>
+    <string name="movie_collection">电影收藏</string>
+    <string name="collect_success">收藏成功</string>
+    <string name="collect_delete">收藏删除</string>
+    <string name="movie_comment">电影评论</string>
+    <string name="login_comment">登陆后才能发表评论</string>
+    <string name="not_praise_again">您已经点过赞了，请不要重复点赞</string>
+    <string name="login_praise">请先登录，再进行点赞</string>
+    <string name="praise_success">点赞成功</string>
+    <string name="url_error">获取URL地址失败</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_failed">刷新失败</string>
+    <string name="error_retry">请求异常，点击重试</string>
+    <string name="user_center">用户中心</string>
+    <string name="msg_push_open">消息推送功能已开启</string>
+    <string name="msg_push_close">消息推送功能已关闭</string>
+    <string name="collection_sync_open">收藏同步功能已开启</string>
+    <string name="collection_sync_close">收藏同步功能已关闭</string>
+    <string name="no_more_data">没有更多数据了</string>
+
+    <string name="user_login">用户登录</string>
+    <string name="user_register">用户注册</string>
+    <string name="msg_sent">验证码已经发送</string>
+    <string name="logining">登录中...</string>
+    <string name="registering">正在注册...</string>
+    <string name="msg_retry">重新获取</string>
+    <string name="login_success">登陆成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="username_not_null">用户名不能为空</string>
+    <string name="password_not_null">密码不能为空</string>
+
+    <string name="personal_avatar">个人头像</string>
+    <string name="username">用户名</string>
+    <string name="telephone">电话</string>
+    <string name="email">邮箱</string>
+    <string name="not_set">未设置</string>
+    <string name="modifying">设置中...</string>
+    <string name="modify_success">修改成功</string>
+    <string name="set_success">设置成功</string>
+    <string name="cache_clear">缓存清理</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+</resources>

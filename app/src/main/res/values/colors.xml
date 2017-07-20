@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red_base">#FB5B81</color>
+    <color name="text_gray_4">#444444</color>
+    <color name="bg_light_gray">#F2F2F2</color>
+    <color name="border_clo">#ccc</color>
+
+
+    <color name="toolbar_bg">#FF4081</color>
+
+    <color name="slide_bg">#454545</color>
+    <color name="slide_top_bg">#454545</color>
+    <color name="text_color_default">#c5c5c5</color>
+    <color name="text_color_white">@android:color/white</color>
+    <color name="text_color_rating">#FB5B81</color>
+
+    <color name="round_concern_text_bg">#FB5B81</color>
+    <color name="detail_bottom_bg">@android:color/black</color>
+
+    <color name="view_pager_bg">#303030</color>
+
+    <color name="btn_logout_bg">@android:color/holo_red_light</color>
+
+    <color name="tablayout_bg">@android:color/black</color>
+    <color name="tab_selected_text_color">@android:color/holo_blue_light</color>
+    <color name="tab_text_color">@android:color/holo_blue_dark</color>
+
+    <color name="item_bg">#424242</color>
+
+    <color name="gray_line">#454545</color>
+    <color name="gray_line_2">#4100</color>
+
+
+
+</resources>
